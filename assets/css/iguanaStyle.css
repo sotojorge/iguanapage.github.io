@@ -1,0 +1,34 @@
+body {font-family: "Raleway"; background-color: black;}
+
+.medium {font-size:medium; color:white}
+p {font-weight: lighter; color:white}
+header {width: auto; font-size: 50px; font-weight: 500; color:white; text-align: center;}
+.d1 {width: auto;  padding-top: 75px; padding-bottom: 75px; text-align: center;}
+footer{width: auto; background-color: #1E1A13; color:white; text-align: center; font-family: 'Open Sans';
+        font-weight: 300;}
+
+/* seccion texto + imagen */
+/* s1 y s2 contienen el texto e imagen respectivamente, a su vez estan contenidos en un div. La propiedad
+inline-block se aplica sobre s1 y s2 para que su contenido se visuailze en linea, el margen hacia la izquierda 
+se aplica sobre s1 y s2 porque con s1 se distancia de div, y s2 se distancia de s1. Es decir el margen es en relacion al
+elemento proximo.*/
+#d2 {padding-top: 40px; padding-bottom: 40px;}
+#s1 {display: inline-block; vertical-align: middle; margin-left: 150px;}
+#s2 {display: inline-block; vertical-align: middle; margin-left: 106px;}
+
+#s1 p{width: 475px; height: 197px; font-size: 16px; margin: 0px;
+        text-align: left; font-size: 16; font-weight: 300;}
+#s2 img{width: 399px; height: 237px; }
+
+.icon {fill: white;}
+.d3 {display: inline-block}
+.pi {margin:0px; font-weight: 300; font-size: 24px;}
+#pc {margin-top:0; margin-bottom: 50px;}
+
+#A {margin-left: 200px; margin-right: 200px;}
+
+#galera {padding-left: 150px;}
+#galeria img  {width:316px; height:202px;}
+#i2 {margin-left: 16px; margin-right: 16px;}
+.svgi {margin-bottom: 10px;}
+
